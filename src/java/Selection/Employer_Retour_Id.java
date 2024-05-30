@@ -1,0 +1,147 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Selection;
+
+/**
+ *
+ * @author Yami Sukehiro
+ */
+public class Employer_Retour_Id {
+    private int id;
+    private String nom;
+    private String prenom;
+    private String date_naiss;
+    private String etat_civil;
+    private String adresse;
+    private String contact;
+    private String email;
+    private String sexe;
+    private String date_eng;
+    private String fonction;
+    private String statu;
+    private String motif;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    public String getDate_naiss() {
+        return date_naiss;
+    }
+
+    public void setDate_naiss(String date_naiss) {
+        this.date_naiss = date_naiss;
+    }
+
+    public String getEtat_civil() {
+        return etat_civil;
+    }
+
+    public void setEtat_civil(String etat_civil) {
+        this.etat_civil = etat_civil;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSexe() {
+        return sexe;
+    }
+
+    public void setSexe(String sexe) {
+        this.sexe = sexe;
+    }
+
+    public String getDate_eng() {
+        return date_eng;
+    }
+
+    public void setDate_eng(String date_eng) {
+        this.date_eng = date_eng;
+    }
+
+    public String getFonction() {
+        return fonction;
+    }
+
+    public void setFonction(String fonction) {
+        this.fonction = fonction;
+    }
+
+    public String getStatu() {
+        return statu;
+    }
+
+    public void setStatu(String statu) {
+        this.statu = statu;
+    }
+
+    public String getMotif() {
+        return motif;
+    }
+
+    public void setMotif(String motif) {
+        this.motif = motif;
+    }
+
+    public Employer_Retour_Id(int id, String nom, String prenom, String date_naiss, String etat_civil, String adresse, String contact, String email, String sexe, String date_eng, String fonction, String statu, String motif) {
+        this.id = id;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.date_naiss = date_naiss;
+        this.etat_civil = etat_civil;
+        this.adresse = adresse;
+        this.contact = contact;
+        this.email = email;
+        this.sexe = sexe;
+        this.date_eng = date_eng;
+        this.fonction = fonction;
+        this.statu = statu;
+        this.motif = motif;
+    }
+    
+    
+}
